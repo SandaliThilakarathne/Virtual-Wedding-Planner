@@ -5,6 +5,100 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Virtual Wedding Planner - Portfolio</title>
     <link rel="stylesheet" href="styles.css"> <!-- Assuming you have a separate CSS file -->
+    <style>
+        /* Inline CSS for simplicity */
+        body {
+			background-image: url('dance.jpg'); /* background image URL */
+            background-size: 1500px; /* Width of the background image */
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff6f61; /* coral color */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+		
+		nav {
+            background-color: #ff91a4; /* pink color */
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        /* Portfolio Item Styles */
+        .portfolio-item {
+            padding: 20px;
+            margin: 20px;
+            color: #fff;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            width: 300px;
+        }
+
+        /* Portfolio Item Colors */
+        #portfolio-item1 {
+            background-color: #f9d423; /* yellow color */
+        }
+
+        #portfolio-item2 {
+            background-color: #ff91a4; /* pink color */
+        }
+
+        #portfolio-item3 {
+            background-color: #56ccf2; /* sky blue color */
+        }
+
+        #portfolio-item4 {
+            background-color: #a0d468; /* green color */
+        }
+
+        #portfolio-item5 {
+            background-color: #e39ff6; /* lavender color */
+        }
+
+        /* Hover Effect */
+        .portfolio-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #6a6c6d; /* grey color */
+            color: #fff;
+            text-align: center;
+            padding: 3px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,10 +115,25 @@
     </header>
 
     <main>
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-            <p>Take a look at some of the beautiful weddings we've planned.</p>
-            <!-- Add images or videos of your portfolio -->
+        <section id="portfolio-item1" class="portfolio-item">
+            <h2>Portfolio Item 1</h2>
+            <p>Description of Portfolio Item 1.</p>
+        </section>
+        <section id="portfolio-item2" class="portfolio-item">
+            <h2>Portfolio Item 2</h2>
+            <p>Description of Portfolio Item 2.</p>
+        </section>
+        <section id="portfolio-item3" class="portfolio-item">
+            <h2>Portfolio Item 3</h2>
+            <p>Description of Portfolio Item 3.</p>
+        </section>
+        <section id="portfolio-item4" class="portfolio-item">
+            <h2>Portfolio Item 4</h2>
+            <p>Description of Portfolio Item 4.</p>
+        </section>
+        <section id="portfolio-item5" class="portfolio-item">
+            <h2>Portfolio Item 5</h2>
+            <p>Description of Portfolio Item 5.</p>
         </section>
     </main>
 
